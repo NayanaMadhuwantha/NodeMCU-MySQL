@@ -32,7 +32,7 @@
 				die("Connection failed: " . mysqli_connect_error());
 			}
 			
-			// Insert values into table. Replace YOUR_TABLE_NAME with your database table name.
+			//  Insert values into table. Replace YOUR_TABLE_NAME with your database table name.
 			$sql = "INSERT INTO YOUR_TABLE_NAME (date, s1, s2)
 			VALUES ('$date', '$s1', '$s2')";
 			if (mysqli_query($conn, $sql)) {
